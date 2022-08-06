@@ -1,3 +1,4 @@
+#available at:  https://replit.com/@dbwaller/boilerplate-time-calculator#time_calculator.py
 
 def add_time(start, duration,weekday=False):
   #Part 1:
