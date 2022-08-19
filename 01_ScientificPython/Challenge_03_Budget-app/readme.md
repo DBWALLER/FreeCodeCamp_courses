@@ -1,3 +1,5 @@
+Described in: https://www.freecodecamp.org/learn/scientific-computing-with-python/scientific-computing-with-python-projects/budget-app
+
 ### Budget Application
 
 `Category` class in `budget.py` is able to instantiate objects based on different budget categories like *food*, *clothing*, and *entertainment*. When objects are created, they are passed in the name of the category. The class have an instance variable called `ledger` that is a list. The class also contains the following methods:
