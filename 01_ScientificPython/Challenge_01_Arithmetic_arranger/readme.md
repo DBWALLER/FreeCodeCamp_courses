@@ -1,3 +1,5 @@
+Original link:https://www.freecodecamp.org/learn/scientific-computing-with-python/scientific-computing-with-python-projects/arithmetic-formatter
+
 ### Arithmetic Formatter
 
 Students in primary school often arrange arithmetic problems vertically to make them easier to solve. For example, "235 + 52" becomes:
