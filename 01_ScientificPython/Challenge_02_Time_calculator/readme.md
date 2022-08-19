@@ -1,3 +1,5 @@
+original link: https://www.freecodecamp.org/learn/scientific-computing-with-python/scientific-computing-with-python-projects/time-calculator
+
 ### Time Calculator
 
 Function named `add_time` takes in two required parameters and one optional parameter:
