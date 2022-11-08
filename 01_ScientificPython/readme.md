@@ -1,3 +1,5 @@
+## Repository for my solutions of the following challenges:
+
 Challenge 1: Arthmetic formatter
 https://www.freecodecamp.org/learn/scientific-computing-with-python/scientific-computing-with-python-projects/arithmetic-formatter
 
