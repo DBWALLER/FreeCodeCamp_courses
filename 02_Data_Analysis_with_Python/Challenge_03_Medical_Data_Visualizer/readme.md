@@ -1,7 +1,6 @@
 Source: https://www.freecodecamp.org/learn/data-analysis-with-python/data-analysis-with-python-projects/medical-data-visualizer
 
 # Medical-Data-Visualizer
-This assignment was set within the Data Analysis with Python Projects on freeCodeCamp.org
 
 ### Assignment
 
