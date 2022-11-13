@@ -35,6 +35,9 @@ Use the data to complete the following tasks in `medical_data_visualizer.py`:
 * Add an 'overweight' column to the data. To determine if a person is overweight, first calculate their BMI by dividing their weight in kilograms by the square of their height in meters. If that value is > 25 then the person is overweight. Use the value 0 for NOT overweight and the value 1 for overweight.
 * Normalize data by making 0 always good and 1 always bad. If the value of 'cholestorol' or 'gluc' is 1, make the value 0. If the value is more than 1, make the value 1.
 * Convert the data into long format and create a chart that shows the value counts of the categorical features using seaborn's `catplot()`. The dataset should be split by 'Cardio' so there is one chart for each 'cardio' value. The chart should look like "examples/Figure_1.png".
+
+![image](https://user-images.githubusercontent.com/52055874/201524804-1d39de49-7605-4291-b206-01bf34c386f5.png)
+
 * Clean the data. Filter out the following patient segments that represent incorrect data:
   - diastolic pressure is higher then systolic (Keep the correct data with `df['ap_lo'] <= df['ap_hi'])`)
   - height is less than the 2.5th percentile (Keep the correct data with `(df['height'] >= df['height'].quantile(0.025))`)
@@ -42,6 +45,7 @@ Use the data to complete the following tasks in `medical_data_visualizer.py`:
   - weight is less then the 2.5th percentile
   - weight is more than the 97.5th percentile
 * Create a correlation matrix using the dataset. Plot the correlation matrix using seaborn's `heatmap()`. Mask the upper triangle. The chart should look like "examples/Figure_2.png".
+![image](https://user-images.githubusercontent.com/52055874/201524822-e2d4af3d-907e-4aad-966e-678d103ed2a0.png)
 
 Any time a variable is set to 'None', make sure to set it to the correct code.
 
